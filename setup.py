@@ -172,7 +172,7 @@ class PyTorchBuilder(FrameworkBuilderBase):
 
     @staticmethod
     def install_requires():
-        return ["flash-attn>=1.0.2"]
+        return []
 
 
 class TensorFlowBuilder(FrameworkBuilderBase):
